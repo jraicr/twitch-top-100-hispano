@@ -475,6 +475,8 @@ function createTwitchEmbebedVideo(
     channel,
     autoplay: autoplayPlayer,
     parent: [
+      "twitch-top100.jrai.dev",
+      "twitch-top-100-hispano.vercel.app",
       "rai.ddns.net",
       "rai.departamentoinformaticajmpp.com",
       //   "localhost",
