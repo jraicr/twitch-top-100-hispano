@@ -1,0 +1,38 @@
+// Colores Light
+// Escalas de grises
+$white: #fff;
+$black: #000;
+$transparent-black: rgba(0, 0, 0, 0.851);
+$transparent-grey: rgba(0, 0, 0, 0.251);
+$grey: #6e6e6e;
+$light-grey: #f3f4f6;
+
+
+$violet: #9146ff;
+$blue-violet: #772ce8;
+$light-violet: #e4d5fa; // #772ce8 con 20% de opacidad
+$red: red;
+
+// Fuentes
+$content-font-family: "Poppins", sans-serif;
+$fontAwesome-font-family: FontAwesome;
+
+// Medidas
+$bp--16_9: calc(100vh * 1.77);
+
+// Breakpoints para usar en @media queries
+$breakpoints: (
+    "phablet":      645px,  // Smartphones y tablets
+    "desktop":      960px, // Escritorios pantallas pequeñas
+    "desktop-wide": 1600px // Escritorios con pantallas anchas
+);
+
+// Z-index 
+$z-indexes: (
+    "modal",
+    "fixed-button",
+    "stream-submenu",
+    "stream-label"
+);
+
+

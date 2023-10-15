@@ -1,0 +1,29 @@
+/** Clases de utilidad **/
+.text-align-center {
+    text-align: center;
+  }
+  
+  .remark-text {
+    font-weight: 600;
+  }
+  
+  .normal-weight {
+    font-weight: 400;
+  }
+  
+  .purple-text {
+    color: $blue-violet;
+  }
+
+  .black-text {
+    color: $black;
+  }
+
+  .grey-text {
+    color: $grey;
+  }
+  
+  .hide {
+    @include hide;
+    transition: all 1s linear;
+  }

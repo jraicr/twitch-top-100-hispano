@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="f87f4e31-42e2-4742-a54d-4806a686969e"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="ad5b277d-d52d-45e2-b8fa-db1ae54c7a15"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1.65 0 0 1.65 540 539.93)"  >
+<g style=""   >
+		<g transform="matrix(0.06 0 0 0.06 -1.28 -1.28)"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(119,44,232); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  cx="0" cy="0" r="512" />
+</g>
+		<g transform="matrix(0.06 0 0 0.06 -1.13 1.93)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-502.95, -553)" d="M 692.9 535 L 617 607 L 541 607 L 474.5 670 L 474.5 607 L 389 607 L 389 337.2 L 692.9 337.2 L 692.9 535 z M 370 301.2 L 275 391.1 L 275 714.9000000000001 L 389 714.9000000000001 L 389 804.8000000000001 L 484 714.9000000000001 L 560 714.9000000000001 L 730.9 553 L 730.9 301.2 L 370 301.2 z M 636 403 L 598 403 L 598 510.9 L 636 510.9 L 636 403 z M 493.5 402.5 L 531.5 402.5 L 531.5 510.4 L 493.5 510.4 L 493.5 402.5 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

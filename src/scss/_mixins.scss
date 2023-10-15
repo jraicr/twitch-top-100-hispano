@@ -1,0 +1,79 @@
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-col-center {
+  @include flex-col;
+  align-items: center;
+}
+
+@mixin flex-row-center {
+  @include flex-row;
+  align-items: center;
+}
+
+@mixin flex-row-center-justify {
+  @include flex-row-center;
+  justify-content: center;
+}
+
+@mixin flex-col-center-justify {
+  @include flex-col-center;
+  justify-content: center;
+}
+
+@mixin full-cover-modal {
+  z-index: z-index("modal");
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@mixin pseudo($content: "", $display: block, $pos: absolute) {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
+@mixin mq($width, $type: max) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+    @if $type == min {
+      $width: $width + 1px;
+    }
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
+}
+
+@mixin truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin inputFont($colour) {
+  color: $colour;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+@mixin visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@mixin hide {
+    opacity: 0;
+    visibility: hidden;
+}

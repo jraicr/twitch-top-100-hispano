@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex">
+  <title>Twitch Top 100 Hispano</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" as="style"
+    onload="this.onload = null; this.rel = 'stylesheet'" />
+
+  <!-- Aplicación Javascript de la web -->
+  <script type="module" src="./js/app.js"></script>
+
+  <!-- Cliente para embeber videos de Twitch-->
+  <script defer src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+  <!-- Iconos Font Awesome -->
+  <script src="https://kit.fontawesome.com/a45ab5a7b1.js" crossorigin="anonymous"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style/style.css" />
+
+</head>
+
+<body>
+  <!--HEADER -->
+  <a href="javascript:;" class="back-top-button"></a>
+  <div class="header-wrapper">
+    <div class="header">
+      <div class="logo">
+        <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <a href="/" tabindex="0">
+          <svg width="64px" height="64px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" alt="Logo">
+            <circle cx="512" cy="512" r="512" style="fill:#772ce8" />
+            <path
+              d="M692.9 535 617 607h-76l-66.5 63v-63H389V337.2h303.9V535zM370 301.2l-95 89.9v323.8h114v89.9l95-89.9h76L730.9 553V301.2H370zM636 403h-38v107.9h38V403zm-142.5-.5h38v107.9h-38V402.5z"
+              style="fill:#fff" />
+          </svg>
+          <div class="text-logo">Top 100 Hispano
+        </a>
+      </div>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li><a href="#favourite-streams-wrapper" class="nav-link hide" id="favourites-link" tabindex="0">Tus
+            Favoritos</a></li>
+        <!--<li><a href="">Menu 2</a></li>-->
+      </ul>
+    </div>
+  </div>
+  </div>
+
+  <!-- CONTENIDO  -->
+  <div class="content-title">
+    <h1 class="text-align-center">Directos de Twitch</h1>
+    <h2>El top 100 de la comunidad hispana</h2>
+  </div>
+
+
+  <!-- Animación de carga -->
+  <div class="loading-waves-container">
+    <div class="loading-waves">
+      <!-- Primera onda -->
+      <div></div>
+
+      <!-- Segunda onda-->
+      <div></div>
+    </div>
+  </div>
+
+  <div class="content-wrapper">
+
+    <!-- Video destacado y seleccionado -->
+    <div class="highlight-stream-container aspect-ratio hide" id="twitch-embebed-live"></div>
+
+    <!-- Busqueda de streamers-->
+    <div class="search-box hide">
+      <button class="button-search" aria-label="Botón de búsqueda"><i class="fas fa-search"></i></button>
+      <input type="text" maxlength="25" class="input-search" placeholder="Buscar streamer" id="search">
+    </div>
+
+    <!-- Mosaico de streams -->
+    <div id="mosaic-streams" class="streams mt-3 hide"></div>
+
+    <!-- Streams Favoritos -->
+    <div id="favourite-streams-wrapper" class="favourites-wrapper hide bg-favourites">
+      <h1 class="ml-1">Tus favoritos</h1>
+
+      <h2 class="ml-1">Online</h2>
+      <div id="favourites" class="streams mt-1 mb-2 favourites"></div>
+
+      <h2 class="ml-1">Offline</h2>
+      <div id="favourites-offline" class="streams mt-1 favourites"></div>
+    </div>
+
+  </div>
+</body>
+
+</html>
